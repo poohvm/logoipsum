@@ -93,9 +93,6 @@ body{
 .adress{
     margin: 0 auto 85px;
 }
-/* .adress_mail{
-    margin-left: 171px;
-} */
 .adress_title{
     font-weight: bold;
     font-size: 50px;
@@ -168,6 +165,10 @@ body{
 }
 .button_brown{
     background: #9F3919;
+}
+.button_brown:hover{
+    background: #a5472b;
+    transition: 450ms;
 }
 .plan_block_text_type{
     margin-top: 34px;
