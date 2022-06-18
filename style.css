@@ -1,0 +1,185 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.header, .footer{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 47px;
+}
+.header_flex, .about, .adress, .plan_flex, .footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_li{
+    display: inline-block;
+}
+.nav_li:not(:first-of-type){
+    margin-left: 47px;
+}
+.nav_link{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+.button{
+    width: 212px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button_orange{
+    background: #FF7143;
+}
+.button_orange:hover{
+    background: #f88660;
+    transition: 450ms;
+}
+.about{
+    margin: 104px auto 85px;
+}
+.about_title{
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+}
+.about_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 410px;
+    margin-bottom: 50px;
+}
+.button_violet{
+    background: #5454D4;
+}
+.button_violet:hover{
+    background: #6b6bd1;
+    transition: 450ms;
+}
+.button_transparent{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+.button_transparent:hover{
+    background: #e9e5e5;
+    transition: 450ms;
+}
+.adress{
+    margin: 0 auto 85px;
+}
+.adress_title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    max-width: 556px;
+    margin-bottom: 30px;
+}
+.button_mail{
+    width: 302px;
+    color: #000000;
+    margin: 0 39px 0 0;
+    padding-left: 14px;
+    text-align: left;
+    cursor: default;
+}
+.button_adress{
+    width: 214px;
+}
+.plan_flex{
+    justify-content: left;
+}
+
+.plans_title{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    max-width: 504px;
+    margin-bottom: 98px;
+}
+.plan_block_title_small{
+    font-size: 30px;
+}
+.plan_block{
+    display: inline-block;
+    width: 330px;
+    height: 441px;
+    cursor: pointer;
+    margin: 0 40px 132px 0;
+    border-radius: 10px;
+    border: 1px solid #f88660;
+    cursor: default;
+}
+.plan_block_orange{
+    background: #FF7143;
+}
+.plan_block_text{
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+.plan_block_title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+}
+.plan_block_button{
+    margin: 0 auto;
+    display: block;
+}
+.button_brown{
+    background: #9F3919;
+}
+.button_brown:hover{
+    background: #a5472b;
+    transition: 450ms;
+}
+.plan_block_text_type{
+    margin-top: 34px;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+.text_white{
+    color: #FFFFFF;
+}
