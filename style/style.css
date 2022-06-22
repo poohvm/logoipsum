@@ -12,9 +12,12 @@ body{
 }
 .header_flex, .about, .adress, .plan_flex, .footer_flex{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+.header_nav{
+    margin: 20px;
 }
 .nav_li{
     display: inline-block;
