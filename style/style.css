@@ -9,9 +9,9 @@ body{
 }
 @media screen and (max-width: 600px) {
     .center_content {
-      margin: 0 auto;
+        margin: 0 auto;
     }
-  }
+}
 .header, .footer{
     background: rgba(255, 113, 67, 0.27);
     padding: 38px 0 47px;
@@ -31,6 +31,12 @@ body{
 .nav_li:not(:last-of-type){
     margin-right: 47px;
 }
+@media screen and (max-width: 600px) {
+    .nav_li:not(:last-of-type){
+        margin-right: 15px;
+    }
+}
+
 /* .nav_li:not(:first-of-type){
     margin-left: 47px;
 } */
