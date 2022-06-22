@@ -10,7 +10,7 @@ body{
     background: rgba(255, 113, 67, 0.27);
     padding: 38px 0 47px;
 }
-.header_flex, .about, .adress, .plan_flex, .footer_flex{
+.header_flex, .about_flex, .adress, .plan_flex, .footer_flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -22,9 +22,12 @@ body{
 .nav_li{
     display: inline-block;
 }
-.nav_li:not(:first-of-type){
-    margin-left: 47px;
+.nav_li:not(:last-of-type){
+    margin-right: 47px;
 }
+/* .nav_li:not(:first-of-type){
+    margin-left: 47px;
+} */
 .nav_link{
     font-weight: bold;
     font-size: 15px;
@@ -68,6 +71,11 @@ body{
     max-width: 467px;
     margin-bottom: 30px;
 }
+@media screen and (max-width: 600px) {
+    .about_title {
+      font-size: 60px;
+    }
+  }
 .about_text{
     font-weight: 400;
     font-size: 20px;
@@ -79,6 +87,8 @@ body{
 }
 .button_violet{
     background: #5454D4;
+    margin-right: 35px;
+    margin-bottom: 10px;
 }
 .button_violet:hover{
     background: #6b6bd1;
@@ -88,7 +98,7 @@ body{
     background: none;
     color: #5454D4;
     border: 1px solid #5454D4;
-    margin-left: 35px;
+    /* margin-left: 35px; */
 }
 .button_transparent:hover{
     background: #e9e5e5;
@@ -111,7 +121,7 @@ body{
     height: 60px;
     border-radius: 10px;
     border: 1px solid #5454D4;
-    margin: 0 39px 0 0;
+    margin: 0 39px 10px 0;
     padding-left: 14px;
     box-sizing: border-box;
 }
