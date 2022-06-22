@@ -5,7 +5,13 @@ body{
 .container{
     max-width: 1070px;
     margin: 0 auto;
+    padding: 0 10px;
 }
+@media screen and (max-width: 600px) {
+    .center_content {
+      margin: 0 auto;
+    }
+  }
 .header, .footer{
     background: rgba(255, 113, 67, 0.27);
     padding: 38px 0 47px;
@@ -98,6 +104,7 @@ body{
     background: none;
     color: #5454D4;
     border: 1px solid #5454D4;
+    margin-bottom: 10px;
     /* margin-left: 35px; */
 }
 .button_transparent:hover{
