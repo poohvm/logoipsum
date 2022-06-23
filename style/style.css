@@ -12,6 +12,7 @@ body{
         margin: 0 auto;
         flex-direction: column;
         overflow-wrap: break-word;
+        text-align: center;
     }
 }
 .header, .footer{
